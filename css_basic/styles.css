@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+body {
+  color: white;
+  font-size: 30px;
+}
+
+header,
+main,
+footer {
+  color: black;
+  font-size: 50px;
+}
+
+header {
+  background-color: rgb(3, 86, 86);
+}
+ul .logo {
+  background-position: top;
+  background-color: aqua;
+}
+main {
+  background-color: rgb(98, 32, 32);
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+main > article {
+  background-color: #622020;
+  flex: 2;
+  overflow-y: auto;
+  border-width: medium;
+}
+
+main > article > aside {
+  background-color: rgb(98, 32, 32);
+  flex: 1;
+  border-width: medium;
+  overflow-y: auto;
+}
+
+footer {
+  background-color: rgb(3, 86, 86);
+}
